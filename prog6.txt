@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class prog8{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int sum =a+b;
+        int dif=a-b;
+        int mul=a*b;
+        System.out.println("Sum of "+ a+" and "+ b+ " is:"+ sum);
+System.out.println("Difference between "+ a+" and "+ b+ " is:"+ dif);
+        System.out.print("Product of "+ a+" and "+ b+ " is:"+ mul);
+    
+        
+    }
+}

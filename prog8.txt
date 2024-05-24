@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class prog8{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        
+        char currentChar =sc.next().charAt(0); // Example character
+        char nextChar = (char) (currentChar + 1);
+        System.out.println("The next character after '" + currentChar + "' is: '" + nextChar + "'");
+    }
+}

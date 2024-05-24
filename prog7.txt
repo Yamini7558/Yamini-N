@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class prog7{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        float a=sc.nextFloat();
+        float b=2*a;
+        System.out.print(a+" multiplied by 2 is:"+ b);
+    
+        
+    }
+}

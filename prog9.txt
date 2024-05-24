@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class prog9{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        Boolean a=sc.nextBoolean();
+        if(a==false)
+        {
+            System.out.print("The opposite of"+a +" is :"+ true);
+            
+        }
+    else
+        {
+          System.out.print("The opposite of "+a +" is :" +false);
+            
+        }
+        
+        
+    }
+}
